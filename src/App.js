@@ -6,7 +6,6 @@ import NavBar from './components/navbar';
 function App() {
   return (
     <div className="App">
-      <h1>AirBnb Clone</h1>
       <NavBar />
     </div>
   );
