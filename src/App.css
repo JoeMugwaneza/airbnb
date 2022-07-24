@@ -101,3 +101,12 @@ section{
 .card-star{
   height: 14px;
 }
+
+.joke--punch{
+  font-weight: bold;
+}
+
+.jokes{
+  margin: 20px;
+  border: 4mm ridge rgba(211, 220, 50, .6);;
+}

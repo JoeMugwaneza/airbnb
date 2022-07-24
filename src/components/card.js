@@ -1,6 +1,7 @@
 import React from 'react';
 
-function Card(){
+function Card(props){
+    console.log();
     return(
         <div className='card'>
             <img src={require("../images/katie-zaferes.png")} className="card-image" alt='card'/>
