@@ -3,14 +3,15 @@ import React from 'react';
 function Card(){
     return(
         <div className='card'>
-            <img src={require("../images/katie-zaferes.png")} alt="althete" className='card--image'/><br/>
-            <div className='card--stats'>
-                <img src={require("../images/star.png")} alt="star" className='card-star'/>
-                <span className='gray'>(6)</span>
+            <img src={require("../images/katie-zaferes.png")} className="card-image" alt='card'/>
+
+            <div className='card-stats'>
+                <img src={require("../images/star.png")} className="card-star" alt='card-stats'/>
+                <span className='gray'>5.0(6).</span>
                 <span className='gray'>USA</span>
             </div>
-            <p>Life lessons with Katie Zaferes</p>
-            <p><span className='bold'> From $136 </span>/ person</p>
+            <p>Life Lessons with Katie Zaferes</p>
+            <p><span className='bold'>From $136</span> / person</p>
         </div>
     )
 }
