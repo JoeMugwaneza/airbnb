@@ -3,10 +3,11 @@ import './App.css';
 import NavBar from './components/navbar';
 import Hero from './components/hero';
 import Card from './components/card';
-import Jokes from './components/jokes';
+import JokesData from './components/JokesData';
 import Challenge1 from './components/challenge1';
 
 function App() {
+  console.log(JokesData);
   return (
     <div className="App">
       <NavBar />
@@ -19,7 +20,7 @@ function App() {
       title="Life Lessons with Katie Zaferes"
       price="136"
       />
-      <Jokes 
+      {/* <Jokes 
       Setup="I got my daughter a fridge for her birthday."
       Punchline="I can't wait to see her face light up when she opens it."
       />
@@ -37,7 +38,8 @@ function App() {
       <Jokes 
       Setup="Why do bees stay in the hive in the winter?"
       Punchline="Swarm."
-      />
+      /> */}
+      <JokesData />
       <Challenge1 />
     </div>
   );
