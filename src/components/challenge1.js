@@ -1,4 +1,7 @@
-/*
+import React from 'react'
+
+export default function Challenge1(){
+    /*
 Challenge 1:
 Given an array of numbers, return an array of each number, squared
 */
@@ -47,3 +50,10 @@ const wrapper = pokemon.map((poke)=>{
 })
 
 console.log(wrapper);
+
+    return(
+        <div>
+        <h1> God is good</h1>
+        </div>
+    )
+}

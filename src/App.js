@@ -4,6 +4,7 @@ import NavBar from './components/navbar';
 import Hero from './components/hero';
 import Card from './components/card';
 import Jokes from './components/jokes';
+import Challenge1 from './components/challenge1';
 
 function App() {
   return (
@@ -37,7 +38,7 @@ function App() {
       Setup="Why do bees stay in the hive in the winter?"
       Punchline="Swarm."
       />
-      
+      <Challenge1 />
     </div>
   );
 }
