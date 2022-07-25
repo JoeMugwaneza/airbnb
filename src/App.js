@@ -10,7 +10,14 @@ function App() {
     <div className="App">
       <NavBar />
       <Hero />
-      <Card />
+      <Card 
+      img="katie-zaferes.png"
+      rating="5.0"
+      reviewCount="(6)"
+      country="Rw"
+      title="Life Lessons with Katie Zaferes"
+      price="136"
+      />
       <Jokes 
       Setup="I got my daughter a fridge for her birthday."
       Punchline="I can't wait to see her face light up when she opens it."

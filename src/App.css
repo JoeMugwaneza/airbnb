@@ -108,5 +108,5 @@ section{
 
 .jokes{
   margin: 20px;
-  border: 4mm ridge rgba(211, 220, 50, .6);;
+  border: thick double #32a1ce;
 }
