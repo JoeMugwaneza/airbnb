@@ -16,7 +16,7 @@ function App() {
 //   />
 //  })
 
-const cardElements = cardData.map(card => {
+const cards = cardData.map(card => {
   return <Card 
   img={card.coverImg}
   rating={card.stats.rating}
@@ -31,7 +31,7 @@ const cardElements = cardData.map(card => {
     <div className="App">
       <NavBar />
       <Hero />
-      {cardElements}
+      {cards}
       {/* <Card 
       img="katie-zaferes.png"
       rating="5.0"
