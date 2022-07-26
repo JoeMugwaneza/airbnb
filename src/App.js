@@ -3,11 +3,19 @@ import './App.css';
 import NavBar from './components/navbar';
 import Hero from './components/hero';
 import Card from './components/card';
-import JokesData from './components/JokesData';
-import Challenge1 from './components/challenge1';
+import Joke from './components/Joke';
+import jokesData from './components/jokesData';
+
 
 function App() {
-  console.log(JokesData);
+
+  const jokeElements = jokesData.map(joke =>{
+    return <Joke 
+    setup={joke.setup}
+    punchline={joke.punchline}
+    />
+  })
+  
   return (
     <div className="App">
       <NavBar />
@@ -20,27 +28,7 @@ function App() {
       title="Life Lessons with Katie Zaferes"
       price="136"
       />
-      {/* <Jokes 
-      Setup="I got my daughter a fridge for her birthday."
-      Punchline="I can't wait to see her face light up when she opens it."
-      />
-      
-      <Jokes 
-      Setup="How did the hacker escape the police?"
-      Punchline="He just ransomware!"
-      />
-
-      <Jokes 
-      Setup="Why don't pirates travel on mountain roads?"
-      Punchline="Scurvy."
-      />
-
-      <Jokes 
-      Setup="Why do bees stay in the hive in the winter?"
-      Punchline="Swarm."
-      /> */}
-      <JokesData />
-      <Challenge1 />
+      {jokeElements}
     </div>
   );
 }
