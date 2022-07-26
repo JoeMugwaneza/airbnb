@@ -18,6 +18,7 @@ function App() {
 
 const cards = cardData.map(card => {
   return <Card 
+  key={card.id}
   img={card.coverImg}
   rating={card.stats.rating}
   reviewCount={card.stats.reviewCount}
@@ -31,7 +32,9 @@ const cards = cardData.map(card => {
     <div className="App">
       <NavBar />
       <Hero />
-      {cards}
+      <section className='card-list'>
+        {cards}
+      </section>
       {/* <Card 
       img="katie-zaferes.png"
       rating="5.0"

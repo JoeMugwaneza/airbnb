@@ -87,6 +87,12 @@ section{
   width: 176px;
   margin-left: 20px;
   display: inline-block;
+
+}
+
+.card-list{
+  overflow: auto;
+  white-space: nowrap;
 }
 
 .card-image{
