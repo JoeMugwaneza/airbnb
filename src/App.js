@@ -19,7 +19,7 @@ function App() {
 const cards = cardData.map(card => {
   return <Card 
   key={card.id}
-  card={card}
+  {...card}
   />
 })
 
