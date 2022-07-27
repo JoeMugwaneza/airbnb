@@ -87,6 +87,7 @@ section{
   width: 176px;
   margin-left: 20px;
   display: inline-block;
+  position: relative;
 
 }
 
@@ -116,4 +117,18 @@ section{
 .jokes{
   margin: 20px;
   border: thick double #32a1ce;
+}
+
+.card--title{
+  white-space: normal;
+}
+
+.card-openSpots{
+  position: absolute;
+  top: 6px;
+  left: 6px;
+  background: white;
+  padding: 5px 7px;
+  border-radius: 2px;
+  font-weight: bold;
 }
